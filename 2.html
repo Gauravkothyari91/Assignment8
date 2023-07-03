@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .container {
+            background-color: white;
+            height: 540px;
+            width: 400px;
+            margin-left: 400px;
+            margin-top: 30px;
+            border-radius: 20px;
+        }
+
+        div>h1 {
+            text-align: center;
+        }
+
+        .item {
+            margin-left: 40px;
+            margin-top: 10px;
+            font-size: 1.4rem;
+        }
+
+        .btn {
+            background-color: black;
+            color: white;
+            margin-left: 30px;
+            margin-top: 10px;
+            width: 320px;
+            border-radius: 7px;
+            font-size: 1.3rem;
+            height: 40px;
+        }
+
+        #batch-select {
+            width: 280px;
+            height: 35px;
+            margin-left: 40px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Signup</h1>
+        <label for="username" class="item">Name:</label> <br>
+        <input type="text" name="name" class="item"> <br><br>
+        <label for="batch" class="item">Batch:</label> <br>
+        <select name="batch" id="batch-select">
+            <option value="">Sigma 2.0</option>
+            <option value="dog">Java with dsa</option>
+            <option value="cat">Data analyst 2.0</option>
+        </select> <br><br>
+        <label for="age" class="item">Age:</label> <br>
+        <input type="text" name="age" class="item"> <br> <br>
+        <label for="email" class="item">Email:</label> <br>
+        <input type="email" name="email" class="item"> <br> <br>
+        <label for="password" class="item">Password:</label> <br>
+        <input type="password" name="password" class="item"> <br> <br>
+        <button class="btn">Signup</button>
+    </div>
+</body>
+
+</html>
